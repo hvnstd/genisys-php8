@@ -1,0 +1,11 @@
+name: TestPlugin
+main: TestPlugin
+version: 1.2.3
+api: [1.0.0]
+author: Tester
+description: Batch 6 fixture plugin
+commands:
+  greet:
+    description: Greet someone
+    usage: /greet <name>
+    aliases: [hi]
